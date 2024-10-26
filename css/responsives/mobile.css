@@ -94,13 +94,17 @@ footer{
     height: fit-content;
 }
 .footer-groups{
-    height: 90px;
+    min-width: 100px;
     border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2px;
+}
+.footer-groups p{
+    width: fit-content;
+    border: 1px solid rgb(0, 255, 47);
 }
 .social-medias-container{
     display: flex;
