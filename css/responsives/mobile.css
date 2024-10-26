@@ -1,0 +1,113 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20vh;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.header-navbar{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    gap: 15%;
+}
+.header-title{
+    width: fit-content;
+    border: 1px solid red;
+}
+.main-part{
+    border: 1px solid rgb(38, 0, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.picture-part{
+    width: fit-content;
+    height: fit-content;
+}
+.picture{
+    width: 50vw;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 0, 0);
+}
+.presentation-part{
+    border: 1px solid rgb(255, 0, 128);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.text-part-text{
+    text-align: center;
+}
+.text-part-title{
+    text-align: center;
+}
+.action-buttons-container{
+    width: 100%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.action-button{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 50%;
+}
+footer{
+    width: 100%;
+    border-top: 3.5px solid grey;
+    padding-top: 20%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+}
+.heigth-fit-content{
+    border: 1px solid red;
+    height: fit-content;
+}
+.footer-groups{
+    height: 90px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.social-medias-container{
+    display: flex;
+    gap: 5px;
+}
+.social-media{
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+}
