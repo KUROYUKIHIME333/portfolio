@@ -24,15 +24,18 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
     gap: 15%;
+}
+.navbar-links{
+    text-decoration: none;
+    color: black;
 }
 .header-title{
     width: fit-content;
-    border: 1px solid red;
+    text-decoration: none;
+    color: black;
 }
 .main-part{
-    border: 1px solid rgb(38, 0, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,10 +49,8 @@ header{
 .picture{
     width: 50vw;
     border-radius: 50%;
-    border: 1px solid rgb(255, 0, 0);
 }
 .presentation-part{
-    border: 1px solid rgb(255, 0, 128);
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -77,25 +78,34 @@ header{
     justify-content: center;
     background-color: aqua;
     border-radius: 50%;
+    color: black;
+    text-decoration: none;
+}
+#CV{
+    background: rgb(238, 163, 2);
+}
+#Projets{
+    background: rgb(225, 59, 37);
+}
+#Contact{
+    background: rgb(128, 216, 218);
 }
 footer{
     width: 100%;
-    border-top: 3.5px solid grey;
+    border-top: 3.5px solid rgb(217, 217, 217);
     padding-top: 20%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 7%;
+    gap: 5%;
 }
 .heigth-fit-content{
-    border: 1px solid red;
     height: fit-content;
 }
 .footer-groups{
     min-width: 100px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +114,6 @@ footer{
 }
 .footer-groups p{
     width: fit-content;
-    border: 1px solid rgb(0, 255, 47);
 }
 .social-medias-container{
     display: flex;
