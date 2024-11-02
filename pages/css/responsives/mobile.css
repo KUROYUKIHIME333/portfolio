@@ -1,0 +1,403 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7vh;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.header-navbar{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+.navbar-links{
+    text-decoration: none;
+    color: black;
+}
+.header-title{
+    width: fit-content;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+.contact-main-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.main-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.picture-part{
+    width: fit-content;
+    height: fit-content;
+}
+.picture{
+    width: 50vw;
+    border-radius: 50%;
+}
+.presentation-part{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.text-part-text{
+    text-align: center;
+}
+.text-part-title{
+    text-align: center;
+}
+.action-buttons-container{
+    width: 100%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.action-button{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 50%;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #593E03;
+}
+#CV{
+    background: rgb(238, 163, 2);
+    font-weight: 700;
+}
+#Projets{
+    background: rgb(225, 59, 37);
+    font-weight: 700;
+}
+#Contact{
+    background: rgb(128, 216, 218);
+    font-weight: 700;
+}
+.bold-weigth{
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    border-top: 3.5px solid rgb(217, 217, 217);
+    padding-top: 20%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.heigth-fit-content{
+    height: fit-content;
+}
+.footer-groups{
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.footer-groups a{
+    text-decoration: none;
+    color: black;
+}
+.footer-groups p{
+    width: fit-content;
+}
+.footer-bold{
+    font-weight: 700;
+}
+.social-medias-container{
+    display: flex;
+    gap: 5px;
+}
+.social-media{
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* only contact page */
+.main-part-contact{
+    width: 100vw;/* modify for the others */
+    display: flex;
+    flex-direction: column;/* modify for the others */
+    align-items: center;/* modify for the others */
+    justify-content: space-between;
+    gap: 10vh;/* modify for the others */
+}
+.my-contact-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-contacts-sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.others-contact-part{
+    width: 90%;/* modify for the others */
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;/* modify for the others */
+    gap: 20px;
+
+}
+.names-mail-subject{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;/* modify for the others */
+    gap: 10px;
+
+}
+.contact-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+.others-contact-input{
+    width: 100%;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 0;
+
+}
+.send-button-container{
+    width: 55%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.message-sendBtn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.message-input{
+    height: 120px;;
+}
+#sendContactsBtn{
+    width: 150px;
+    height: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    background: #EEA302;
+    border: 1px solid #593E03;
+    cursor: pointer;
+}
+.margin-down{
+    margin-bottom: 5px;
+}
+
+/* projects part*/
+.main-part-project{
+    width: 100vw;/* modify for the others */
+    display: flex;
+    flex-direction: column;/* modify for the others */
+    align-items: center;/* modify for the others */
+    justify-content: space-between;
+    gap: 10vh;/* modify for the others */
+}
+.project-main-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.all-projects-part{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+}
+.my-projects{
+    width: 90%;
+}
+.a-project-title{
+    margin-left: 5vw;
+    margin-bottom: 7.5vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+}
+.a-project-description{
+    margin-left: 5vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.a-project-picture{
+    width: 100%;
+}
+.a-project-picture img{
+    width: 80vw;
+    border: 5vw solid rgb(223, 223, 223);
+}
+.all-projects-part-desktop{
+    width: 90vw;
+    display: none;
+    align-items: center;
+}
+.my-projects-desktop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10vw;
+}
+.a-project-desktop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+.a-project-title-desktop{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 0;
+}
+.a-project-picture-desktop{
+    width: 45vw;
+}
+.a-project-firstpart-desktop{
+    width: 37vw;
+}
+.a-project-picture-desktop img{
+    width: 100%;
+    border: 2vw solid rgb(223, 223, 223);
+}
+.a-project-description-desktop{
+    text-align: justify;
+}
+/* curiculum part*/
+.main-part-cv{
+    width: 100vw;/* modify for the others */
+    display: flex;
+    flex-direction: column;/* modify for the others */
+    align-items: center;/* modify for the others */
+    justify-content: space-between;
+    gap: 10vh;/* modify for the others */
+}
+.cv-main-title{
+    width: fit-content;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+.cv-sections{
+    width: 90%;/* modify for the others */
+    display: flex;
+    flex-direction: column;/* modify for the others */
+    align-items: center;/* modify for the others */
+    gap: 2.5vw;
+}
+.cv-main-content{
+    width: 100%;
+}
+.cv-section-intitule{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+}
+.cv-section-period{
+    min-width: fit-content;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 28px;
+}
+.cv-section-title{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 100%;
+}
+.cv-section-title p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+}
+.cv-section-content{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cv-section-content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    width: 90vw;
+}
+ul{
+    width: 90vw;
+}
+li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    width: 90%;
+    margin-bottom: 2.5px;
+}
+.gras{
+    font-weight: 600;
+}
+.underline-container{
+    padding-bottom: 15vh;
+    border-bottom: 3.5px solid rgb(217, 217, 217);
+}
