@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* default style (Mobile) */
-@import url(mobile.css);
+@import url(/pages/css/responsives/mobile.css);
 
 /* tablet style */
-@import url(tablet.css);
+@import url(/pages/css/responsives/tablet.css);
 
 /* desktop style */
-@import url(desktop.css);
+@import url(/pages/css/responsives/desktop.css);

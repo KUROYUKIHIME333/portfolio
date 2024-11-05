@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="/pages/css/index.css">
     <title>PORTFOLIO</title>
 
 </head>
@@ -11,65 +11,88 @@
 <body>
     <main>
         <header class="header-part">
-            <a class="header-title" href="index.html">Daniel Herman RAMAZANI</a>
+            <a class="header-title" href="/index.html">Daniel Herman RAMAZANI</a>
             
             <nav class="header-navbar">
-                <a class="navbar-links" href="curiculum.html">CV</a>
+                <a class="navbar-links" href="/pages/curiculum.html">CV</a>
                 <p>|</p>
-                <a class="navbar-links" href="project.html">Projets</a>
+                <a class="navbar-links" href="/pages/project.html">Projets</a>
                 <p>|</p>
-                <a class="navbar-links" href="contact.html">Contact</a>
+                <a class="navbar-links" href="/pages/contact.html">Contact</a>
             </nav>
         </header>
 
-        <div class="main-part-contact">
-            <div class="my-contact-part">
-                <h2 class="contact-main-title">Contact</h2>
-                <div class="my-contacts">
-                    <div class="my-contacts-sub">
-                        <p class="bold-weigth">Phone</p>
-                        <p>+243815086116</p>
+        <div class="main-part-others">
+            <h2 class="project-main-title">Projects</h2>
+            
+            <div class="all-projects-part">
+                <div class="my-projects">
+                    <div class="a-project">
+                        <p class="a-project-title">Mini Link</p>
+                        <div class="a-project-picture">
+                            <img src="/ressources/projects/minilink.png" alt=""/>
+                        </div>
+                        <p class="a-project-description">MiniLink est un outil permettant de raccourcir des liens et de générer des codes QR. Son interface épurée et intuitive permet aux utilisateurs de réduire facilement la longueur de leurs liens web, les rendant plus esthétiques et faciles à partager sur les réseaux sociaux.</p>
                     </div>
-                    <div class="my-contacts-sub ">
-                        <p class="bold-weigth">Email</p>
-                        <p><span>dhermansum@gmail.com</span>
-                            <br><span>danielramazanisumaili@gmail.com</span>
-                        </p>
+
+                    <div class="a-project">
+                        <p class="a-project-title">Shimri</p>
+                        <div class="a-project-picture">
+                            <img src="/ressources/projects/shimri.png" alt=""/>
+                        </div>
+                        <p class="a-project-description">Shimri est une plateforme en ligne dédiée à la libération de la parole. Elle offre un espace sécurisé où chacun peut partager son histoire, ses émotions et ses réflexions de manière confidentielle.</p>
                     </div>
+
+                    <!-- A third project -->
+
+                    <!-- <div class="a-project">
+                        <p class="a-project-title"></p>
+                        <div class="a-project-picture">
+                            <img src="/ressources/projects/shimri.png" alt=""/>
+                        </div>
+                        <p class="a-project-description"></p>
+                    </div> -->
                 </div>
             </div>
 
-            <form class="others-contact-part">
-                <div class="names-mail-subject">
-                    <div class="contact-input-container">
-                        <label>First Name</label>
-                        <input type="text" class="others-contact-input" name="contactFirstname" id="contactFirstname" required>
-                    </div>
-                    <div class="contact-input-container">
-                        <label>Last Name</label>
-                        <input type="text" class="others-contact-input" name="contactLastname" id="contactLastname">
-                    </div>
-                    <div class="contact-input-container">
-                        <label>Email</label>
-                        <input type="email" class="others-contact-input" name="contactEmail" id="contactEmail" required>
-                    </div>
-                    <div class="contact-input-container">
-                        <label>Subject</label>
-                        <input type="text" class="others-contact-input" name="contactSubject" id="contactSubject" required>
-                    </div>
-                </div>
 
-                <div class="message-sendBtn">
-                    <div class="contact-input-container">
-                        <label>Message</label>
-                        <input type="text" class="others-contact-input message-input" name="contactSubject" id="contactSubjectBtn" required>
+            <div class="all-projects-part-desktop">
+                <div class="my-projects-desktop">
+                    <div class="a-project-desktop">
+                        <div class="a-project-firstpart-desktop">
+                            <p class="a-project-title-desktop">Mini Link</p>
+                            <p class="a-project-description-desktop">MiniLink est un outil permettant de raccourcir des liens et de générer des codes QR. Son interface épurée et intuitive permet aux utilisateurs de réduire facilement la longueur de leurs liens web, les rendant plus esthétiques et faciles à partager sur les réseaux sociaux.</p>
+                        </div>
+                        <div class="a-project-picture-desktop">
+                            <img src="/ressources/projects/minilink.png" alt=""/>
+                        </div>
+                        
                     </div>
 
-                    <div class="send-button-container">
-                        <button type="submit" class="action-button" id="sendContactsBtn">Envoyer</button>
+                    <div class="a-project-desktop">
+                        <div class="a-project-firstpart-desktop">
+                            <p class="a-project-title-desktop">Shimri</p>
+                            <p class="a-project-description-desktop">Shimri est une plateforme en ligne dédiée à la libération de la parole. Elle offre un espace sécurisé où chacun peut partager son histoire, ses émotions et ses réflexions de manière confidentielle.</p>
+                        </div>
+                        <div class="a-project-picture-desktop">
+                            <img src="/ressources/projects/shimri.png" alt=""/>
+                        </div>
                     </div>
+
+                    <!-- A third project -->
+                     
+                    <!-- <div class="a-project-desktop">
+                        <div class="a-project-firstpart-desktop">
+                            <p class="a-project-title-desktop"></p>
+                            <p class="a-project-description-desktop"></p>
+                        </div>
+                        <div class="a-project-picture-desktop">
+                            <img src="/ressources/projects/shimri.png" alt=""/>
+                        </div>
+                    </div> -->
                 </div>
-            </form>
+            </div>
+
         </div>
 
         <footer>
@@ -98,8 +121,8 @@
                     </a>
                     <a class="social-media" href="#">
                         <svg width="20" height="20" viewBox="0 0 21 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.6144 1.59412C18.7105 1.4991 18.784 1.38865 18.8308 1.26906C18.8775 1.14948 18.8965 1.02311 18.8868 0.897164C18.877 0.77122 18.8387 0.64817 18.7739 0.53504C18.7092 0.421909 18.6193 0.320914 18.5094 0.237821C18.3996 0.154727 18.2718 0.0911624 18.1336 0.0507559C17.9953 0.0103493 17.8492 -0.00610779 17.7035 0.00232416C17.5579 0.0107561 17.4156 0.0439121 17.2848 0.0998989C17.154 0.155886 17.0372 0.233607 16.9411 0.328625L11.2633 5.94023L6.44444 0.384357C6.34095 0.265018 6.20674 0.168156 6.05246 0.101444C5.89818 0.0347314 5.72805 0 5.55556 0H1.11111C0.904765 0 0.702495 0.0496922 0.526966 0.143508C0.351437 0.237325 0.209584 0.371558 0.117303 0.531168C0.0250225 0.690778 -0.0140409 0.869457 0.00449019 1.04719C0.0230213 1.22491 0.0984148 1.39467 0.222223 1.53743L7.37444 9.7838L1.38556 15.7029C1.28947 15.7979 1.21597 15.9084 1.16925 16.0279C1.12252 16.1475 1.10349 16.2739 1.11324 16.3998C1.12299 16.5258 1.16133 16.6488 1.22607 16.762C1.29081 16.8751 1.38068 16.9761 1.49056 17.0592C1.60043 17.1423 1.72815 17.2059 1.86643 17.2463C2.00471 17.2867 2.15084 17.3031 2.29647 17.2947C2.4421 17.2863 2.58439 17.2531 2.7152 17.1971C2.84602 17.1411 2.96281 17.0634 3.05889 16.9684L8.73667 11.3558L13.5556 16.9117C13.6591 17.031 13.7933 17.1279 13.9475 17.1946C14.1018 17.2613 14.2719 17.2961 14.4444 17.2961H18.8889C19.0952 17.2961 19.2975 17.2464 19.473 17.1525C19.6486 17.0587 19.7904 16.9245 19.8827 16.7649C19.975 16.6053 20.014 16.4266 19.9955 16.2489C19.977 16.0711 19.9016 15.9014 19.7778 15.7586L12.6256 7.51225L18.6144 1.59412ZM15 15.3743L3.33333 1.92178H5L16.6667 15.3743H15Z" fill="black"/>
-                        </svg>    
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.253 1.659C17.3395 1.56011 17.4056 1.44516 17.4477 1.32071C17.4897 1.19626 17.5069 1.06475 17.4981 0.933678C17.4893 0.802608 17.4548 0.674551 17.3965 0.556816C17.3383 0.439081 17.2574 0.333975 17.1585 0.2475C17.0596 0.161024 16.9447 0.0948727 16.8202 0.0528216C16.6958 0.0107705 16.5642 -0.00635638 16.4332 0.00241876C16.3021 0.0111939 16.1741 0.0456994 16.0563 0.103965C15.9386 0.16223 15.8335 0.243115 15.747 0.342L10.637 6.182L6.3 0.4C6.20685 0.275804 6.08607 0.175 5.94721 0.105573C5.80836 0.036145 5.65525 0 5.5 0H1.5C1.31429 0 1.13225 0.0517147 0.974269 0.149349C0.816293 0.246984 0.688626 0.386681 0.605573 0.552786C0.52252 0.718892 0.487363 0.904844 0.504041 1.08981C0.520719 1.27477 0.588573 1.45143 0.7 1.6L7.137 10.182L1.747 16.342C1.66053 16.4409 1.59437 16.5558 1.55232 16.6803C1.51027 16.8047 1.49314 16.9363 1.50192 17.0673C1.51069 17.1984 1.5452 17.3264 1.60347 17.4442C1.66173 17.5619 1.74261 17.667 1.8415 17.7535C1.94039 17.84 2.05534 17.9061 2.17979 17.9482C2.30424 17.9902 2.43575 18.0074 2.56682 17.9986C2.69789 17.9898 2.82595 17.9553 2.94368 17.897C3.06142 17.8388 3.16652 17.7579 3.253 17.659L8.363 11.818L12.7 17.6C12.7931 17.7242 12.9139 17.825 13.0528 17.8944C13.1916 17.9639 13.3448 18 13.5 18H17.5C17.6857 18 17.8678 17.9483 18.0257 17.8507C18.1837 17.753 18.3114 17.6133 18.3944 17.4472C18.4775 17.2811 18.5126 17.0952 18.496 16.9102C18.4793 16.7252 18.4114 16.5486 18.3 16.4L11.863 7.818L17.253 1.659ZM14 16L3.5 2H5L15.5 16H14Z" fill="black"/>
+                        </svg>   
                     </a>
                 </div>
             </div>
